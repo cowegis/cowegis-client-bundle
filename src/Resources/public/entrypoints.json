@@ -1,0 +1,12 @@
+{
+  "entrypoints": {
+    "cowegis": {
+      "css": [
+        "/bundles/cowegisclient/css/cowegis.css"
+      ],
+      "js": [
+        "/bundles/cowegisclient/js/cowegis.js"
+      ]
+    }
+  }
+}
