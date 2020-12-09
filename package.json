@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cowegis web client symfony bundle",
+  "main": "src/Resources/js/cowegis.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/encore dev",
+    "watch": "./node_modules/.bin/encore dev --watch",
+    "build": "./node_modules/.bin/encore production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowegis/cowegis-client-bundle.git"
+  },
+  "keywords": [
+    "Cowegis",
+    "Leaflet",
+    "Maps",
+    "OSM"
+  ],
+  "author": "netzmacht David Molineus",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cowegis/cowegis-client-bundle/issues"
+  },
+  "homepage": "https://github.com/cowegis/cowegis-client-bundle#readme",
+  "dependencies": {
+    "@cowegis/client": "1.0.0-alpha1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@symfony/webpack-encore": "^0.31.0",
+    "autoprefixer": "^9.8.0",
+    "postcss-loader": "^3.0.0",
+    "svg-inline-loader": "^0.8.2"
+  }
+}
