@@ -1,36 +1,43 @@
 {
-    "name": "cowegis/cowegis-client-bundle",
-    "type": "symfony-bundle",
-    "description": "Cowegis Client - This bundle provides the cowegis javascript client as assets for symfony applications",
-    "keywords": [
-        "cowegis",
-        "leaflet",
-        "webgis",
-        "gis",
-        "javascript"
-    ],
-    "license": "LGPL-3.0-or-later",
-    "authors": [
-        {
-            "name": "David Molineus",
-            "email": "david.molineus@netzmacht.de"
-        }
-    ],
-    "require": {
-        "php": "^7.2",
-        "symfony/http-kernel": "^4.4"
-    },
-    "require-dev": {
-        "doctrine/coding-standard": "^7.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Cowegis\\Bundle\\Client\\": "src/"
-        }
+  "name": "cowegis/cowegis-client-bundle",
+  "description": "Cowegis Client - This bundle provides the cowegis javascript client as assets for symfony applications",
+  "license": "LGPL-3.0-or-later",
+  "type": "symfony-bundle",
+  "keywords": [
+    "cowegis",
+    "leaflet",
+    "webgis",
+    "gis",
+    "javascript"
+  ],
+  "authors": [
+    {
+      "name": "David Molineus",
+      "email": "david.molineus@netzmacht.de"
     }
+  ],
+  "require": {
+    "php": "^7.2",
+    "symfony/dependency-injection": "^4.4 || ^5.4",
+    "symfony/http-kernel": "^4.4 || ^5.4"
+  },
+  "require-dev": {
+    "doctrine/coding-standard": "^9.0",
+    "phpcq/runner-bootstrap": "^1.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cowegis\\Bundle\\Client\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
 }

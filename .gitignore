@@ -1,4 +1,8 @@
 /vendor/
-/node_modules/
+/.phpcq/*
+!/.phpcq/local
 
 composer.lock
+.phpcs-cache
+
+/node_modules/
