@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["font-awesome/free-regular-svg-icons-attribution-js"],{"73yj":function(e,o){console.log("Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com\nLicense - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)\n")}}]);

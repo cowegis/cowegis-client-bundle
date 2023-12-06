@@ -1,1 +1,1 @@
-import "@cowegis/client";
+import "@cowegis/client/js/bundle";

@@ -1,6 +1,5 @@
 {
   "private": true,
-  "version": "1.0.0",
   "description": "Cowegis web client symfony bundle",
   "main": "src/Resources/js/cowegis.js",
   "scripts": {
@@ -25,13 +24,13 @@
   },
   "homepage": "https://github.com/cowegis/cowegis-client-bundle#readme",
   "dependencies": {
-    "@cowegis/client": "1.0.0-alpha1"
+    "@cowegis/client": "file:../client"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.9.6",
-    "@symfony/webpack-encore": "^0.31.0",
-    "autoprefixer": "^9.8.0",
-    "postcss-loader": "^3.0.0",
+    "@babel/plugin-transform-runtime": "^7.18.6",
+    "@symfony/webpack-encore": "^3.0.0",
+    "autoprefixer": "^10.4.7",
+    "postcss-loader": "^7.0.0",
     "svg-inline-loader": "^0.8.2"
   }
 }

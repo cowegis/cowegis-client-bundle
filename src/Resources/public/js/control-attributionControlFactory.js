@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["control-attributionControlFactory"],{JlbA:function(t,o,n){"use strict";n.r(o);var r=n("5SBJ");o.default=async function(t,o){const n=r.default.control.attribution(t.options);return t.attributions.forEach(t=>n.addAttribution(t)),t.replacesDefault&&o.map.attributionControl&&o.map.removeControl(o.map.attributionControl),n}}}]);

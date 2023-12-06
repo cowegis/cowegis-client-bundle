@@ -21,10 +21,10 @@ Encore
 ;
 
 const config = Encore.getWebpackConfig();
+config.module.parser = {
+     javascript: {
+         dynamicImportMode: 'weak'
+     }
+};
 
-// Fix issue occurs with @mapbox/maki
-config.node = {
-    fs: 'empty'
-}
-
-module.exports = config
+module.exports = config;
