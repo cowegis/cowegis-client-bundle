@@ -2,9 +2,11 @@
   "entrypoints": {
     "cowegis": {
       "css": [
+        "/bundles/cowegisclient/css/vendors-client_node_modules_mapbox_togeojson_togeojson_js-client_node_modules_raruto_leaflet--210221.css",
         "/bundles/cowegisclient/css/cowegis.css"
       ],
       "js": [
+        "/bundles/cowegisclient/js/vendors-client_node_modules_mapbox_togeojson_togeojson_js-client_node_modules_raruto_leaflet--210221.js",
         "/bundles/cowegisclient/js/cowegis.js"
       ]
     }

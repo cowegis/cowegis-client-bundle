@@ -23,8 +23,11 @@ Encore
 const config = Encore.getWebpackConfig();
 config.module.parser = {
      javascript: {
-         dynamicImportMode: 'weak'
+         dynamicImportMode: 'lazy'
      }
 };
+config.optimization.splitChunks = {
+    chunks: 'all',
+},
 
 module.exports = config;
