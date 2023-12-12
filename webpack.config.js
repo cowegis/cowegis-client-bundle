@@ -26,8 +26,5 @@ config.module.parser = {
          dynamicImportMode: 'lazy'
      }
 };
-config.optimization.splitChunks = {
-    chunks: 'all',
-},
 
 module.exports = config;
