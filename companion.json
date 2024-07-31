@@ -1,0 +1,13 @@
+{
+  "receipts": ["projects/library", "projects/js/webpack"],
+  "config": {
+    "phpConstraint": "^8.2"
+  },
+  "tools": {
+    "phpcq": {
+      "plugins": {
+        "phpunit": false
+      }
+    }
+  }
+}
