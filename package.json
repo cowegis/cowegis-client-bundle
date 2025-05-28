@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/cowegis/cowegis-client-bundle#readme",
   "dependencies": {
-    "@cowegis/client": "^1.0.0-alpha5",
-    "@geoman-io/leaflet-geoman-free": "^2.15.0"
+    "@cowegis/client": "^1.0.1",
+    "@geoman-io/leaflet-geoman-free": "^2.18.3"
   },
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.6",
-    "@symfony/webpack-encore": "^4.5.0",
-    "autoprefixer": "^10.4.7",
-    "postcss-loader": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.27",
+    "@symfony/webpack-encore": "^5.1.0",
+    "autoprefixer": "^10.4.21",
+    "postcss-loader": "^8.1.1",
     "svg-inline-loader": "^0.8.2"
   }
 }
