@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/cowegis/cowegis-client-bundle#readme",
   "dependencies": {
-    "@cowegis/client": "^1.0.1",
+    "@cowegis/client": "^1.0.2",
     "@geoman-io/leaflet-geoman-free": "^2.18.3"
   },
   "devDependencies": {
