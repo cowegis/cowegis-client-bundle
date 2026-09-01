@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[12115],{12115(c,l,s){s.r(l),s.d(l,{default:()=>e});const e={touch:"استخدم إصبعين لتحريك الخريطة",scroll:"‏استخدم ctrl + scroll لتصغير/تكبير الخريطة",scrollMac:"يمكنك استخدام ⌘ + التمرير لتكبير/تصغير الخريطة"}}}]);
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[12115],{12115(l,c,s){s.r(c);s.d(c,["default",0,{touch:"استخدم إصبعين لتحريك الخريطة",scroll:"‏استخدم ctrl + scroll لتصغير/تكبير الخريطة",scrollMac:"يمكنك استخدام ⌘ + التمرير لتكبير/تصغير الخريطة"}])}}]);

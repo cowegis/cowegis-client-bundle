@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[48797],{48797(n,c,u){u.r(c),u.d(c,{default:()=>h});const h={touch:"Sử dụng hai ngón tay để di chuyển bản đồ",scroll:"Sử dụng ctrl + cuộn để thu phóng bản đồ",scrollMac:"Sử dụng ⌘ + cuộn để thu phóng bản đồ"}}}]);
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[48797],{48797(n,c,u){u.r(c);u.d(c,["default",0,{touch:"Sử dụng hai ngón tay để di chuyển bản đồ",scroll:"Sử dụng ctrl + cuộn để thu phóng bản đồ",scrollMac:"Sử dụng ⌘ + cuộn để thu phóng bản đồ"}])}}]);
