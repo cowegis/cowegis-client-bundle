@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[44973],{44973(o,e,s){s.r(e),s.d(e,{default:()=>t});const t={touch:"Use two fingers to move the map",scroll:"Use ctrl + scroll to zoom the map",scrollMac:"Use ⌘ + scroll to zoom the map"}}}]);
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[44973],{44973(e,o,s){s.r(o);s.d(o,["default",0,{touch:"Use two fingers to move the map",scroll:"Use ctrl + scroll to zoom the map",scrollMac:"Use ⌘ + scroll to zoom the map"}])}}]);

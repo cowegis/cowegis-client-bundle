@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[88631],{88631(t,e,o){o.r(e),o.d(e,{default:()=>l});const l={touch:"Bruk to fingre for å flytte kartet",scroll:"Hold ctrl-tasten inne og rull for å zoome på kartet",scrollMac:"Hold inne ⌘-tasten og rull for å zoome på kartet"}}}]);
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[88631],{88631(t,e,l){l.r(e);l.d(e,["default",0,{touch:"Bruk to fingre for å flytte kartet",scroll:"Hold ctrl-tasten inne og rull for å zoome på kartet",scrollMac:"Hold inne ⌘-tasten og rull for å zoome på kartet"}])}}]);
